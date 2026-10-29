@@ -1,0 +1,31 @@
+Total books: 50,000
+Books with at least one selected genre: 43,871
+Books with no matching selected genre (unlisted): 6,129
+
+Books per genre:
+Crime/Mystery: 6,574
+Romance: 17,405
+Fantasy: 5,909
+Contemporary: 4,474
+Science Fiction: 4,262
+Action/Adventure: 3,942
+Horror: 2,255
+Literary: 1,206
+Comedy: 2,083
+Children Books: 18,082
+Historical: 7,481
+Thriller: 3,032
+unlisted: 6,129
+
+Before matching, tags are lowercased, Unicode-repaired, stripped of punctuation and invisible characters, and whitespace-normalized.
+Empty tags and duplicates created by cleaning are removed.
+Matching uses normalized category words within existing tags and the explicit mappings below.
+Crime or mystery -> Crime/Mystery; action or adventure -> Action/Adventure.
+Non-fiction, non fiction, and nonfiction -> Non-fiction.
+Children, children's, or juvenile -> Children Books; comedy or humorous -> Comedy.
+Catalog metadata tags are ignored when matching selected genres.
+Matched books keep only selected genres; all other tags are removed.
+Unmatched books retain their cleaned tags and gain unlisted exactly once.
+The source books.json and books.parquet files are not modified.
+A book can have multiple genres, but counts only once per genre.
+Genre counts therefore need not sum to the total number of books.
