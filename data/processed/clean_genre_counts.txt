@@ -1,0 +1,15 @@
+Total books in cleaned dataset: 34,844
+
+Final Genre Counts:
+Crime/Mystery: 6,574
+Romance: 6,000
+Fantasy: 5,909
+Contemporary: 4,474
+Science Fiction: 4,262
+Action/Adventure: 3,942
+Horror: 2,255
+Literary: 1,206
+Comedy: 2,083
+Children Books: 6,000
+Historical: 7,481
+Thriller: 3,032
