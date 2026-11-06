@@ -1,21 +1,21 @@
-Total books: 50,000
-Books with at least one selected genre: 43,871
-Books with no matching selected genre (unlisted): 6,129
+Total books: 49,830
+Books with at least one selected genre: 43,740
+Books with no matching selected genre (unlisted): 6,090
 
 Books per genre:
-Crime/Mystery: 6,574
-Romance: 17,405
-Fantasy: 5,909
-Contemporary: 4,474
-Science Fiction: 4,262
-Action/Adventure: 3,942
-Horror: 2,255
-Literary: 1,206
-Comedy: 2,083
-Children Books: 18,082
-Historical: 7,481
-Thriller: 3,032
-unlisted: 6,129
+Crime/Mystery: 6,550
+Romance: 17,379
+Fantasy: 5,893
+Contemporary: 4,469
+Science Fiction: 4,242
+Action/Adventure: 3,924
+Horror: 2,249
+Literary: 1,203
+Comedy: 2,068
+Children Books: 18,022
+Historical: 7,466
+Thriller: 3,020
+unlisted: 6,090
 
 Before matching, tags are lowercased, Unicode-repaired, stripped of punctuation and invisible characters, and whitespace-normalized.
 Empty tags and duplicates created by cleaning are removed.
